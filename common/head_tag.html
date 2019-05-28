@@ -21,10 +21,10 @@ api.onToolbarCreate(toolbar => {
 });
 api.onToolbarCreate(toolbar => {
     toolbar.addButton({
-        id: "align_right_button",
+        id: "align_left_button",
         group: "extras",
-        icon: "align-right",
-        perform: e => e.applySurround('<div align="right">', '</div>', 'align_right_text')
+        icon: "align-left",
+        perform: e => e.applySurround('<div align="left">', '</div>', 'align_left_text')
     });
 });
 api.onToolbarCreate(toolbar => {
@@ -71,9 +71,9 @@ translations.composer.align_center_button_title = settings.align_center_button;
 translations.composer.align_center_text =
   settings.align_center_text;
 
-translations.composer.align_right_button_title = settings.align_right_button;
-translations.composer.align_right_text =
-  settings.align_right_text;
+translations.composer.align_left_button_title = settings.align_left_button;
+translations.composer.align_left_text =
+  settings.align_left_text;
 
 translations.composer.align_justify_button_title = settings.align_justify_button;
 translations.composer.align_justify_text =

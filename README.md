@@ -1,4 +1,4 @@
-## MD Composer Extras
+## MD Composer Extras (RTL version)
 
 Add some formatting option in your Discourse composer : underline, center, align right, justify and strikethrough
 
